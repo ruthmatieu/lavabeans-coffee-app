@@ -1,0 +1,178 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/**/
+nav {
+  padding: 20px 20px 0 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-left ul li {
+  float: left;
+}
+
+.nav-left ul li a {
+  margin: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.nav-right ul li {
+  float: right;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.nav-right ul li a {
+  margin: 18px;
+}
+/**/
+
+.logo {
+  width: 60px;
+} 
+
+.nav-bar .btn-one{
+  margin: 0;
+  background-color: white;
+	border-radius: 28px;
+	border: 1px solid black;
+	cursor: pointer;
+  font-weight: 900;
+  font-size: 13px;
+	padding: 5px 10px;
+  color: black;
+}
+
+.nav-bar .btn-two{
+  margin: 0;
+  background-color: #202C54;
+	border-radius: 28px;
+	border: 1px solid white;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 13px;
+	padding: 5px 10px;
+  color: white;
+}
+
+
+.greeting {  
+  box-shadow: 1px 5px 5px 1px#E5E5E5;
+  border-bottom: 1px solid #AFAFAF;
+}
+
+.greeting h1{
+  margin: 0 0 20px 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+}
+
+.flexbox-rewards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rewards-div {
+  margin: 0 1%;
+}
+
+.rewards-div p {
+  /* text-align: center; */
+  margin-left: 10%;
+}
+.rewards-content-img {
+  border-radius: 8%;
+  width: 100%;
+  margin: 0 10%;
+}
+
+.main-content-container {
+  background-color: #F7F7F7;
+  padding: 5% 0 22% 0;
+}
+.main-content-div {
+  padding-bottom: 2%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 1px #B7B7B7;
+  border-radius: 1%;
+  margin: 2% 1%;
+} 
+
+.main-content-img {
+  width: 100%;
+  border-top-right-radius: 1%;
+  border-top-left-radius: 1%;
+}
+
+.main-content-div h2, p, button{
+  margin: 2% 3%;
+} 
+
+.main-content-div button{
+  background-color:#FF582B;
+	border-radius: 28px;
+	border: 1px solid #FF582B;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px 10px;
+  color: white;
+}
+.main-content-div button:hover {
+	background-color:#3e8364;
+}
+
+.rewards-btn-one {
+  background-color: #202C54;
+	border-radius: 28px;
+	border: 1px solid #202C54;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px 10px;
+  color: white;
+}
+
+.rewards-btn-two {
+  margin: 0;
+  background-color: white;
+	border-radius: 28px;
+	border: 1px solid black;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px 10px;
+  color: black;
+}
+
+.rewards-header {
+  margin: 25px 0 25px 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.fas {
+  width: 25px;
+}
