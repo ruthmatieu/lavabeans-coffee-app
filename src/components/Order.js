@@ -1,13 +1,16 @@
 import React from 'react';
-
+import MenuItems from './MenuItems';
 
 function Order() {
     return (
         <div>
             <h1>Menu</h1>
-            <h2>Mains</h2>
+            <MenuItems menuTitle="Drinks"/>
+            <MenuItems menuTitle="Food"/>
+            <MenuItems menuTitle="At Home Coffee"/>
+            <MenuItems menuTitle="Merchandise"/>
         </div>
     )
 }
 
-export default Order
+export default Order;
