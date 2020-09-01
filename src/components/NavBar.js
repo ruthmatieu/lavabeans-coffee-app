@@ -25,7 +25,7 @@ function NavBar() {
                         <Route path="/cards" component={Cards}></Route>
                         <Route path="/gifts" component={Gifts}></Route>
                 </div>
-                <div class="nav-right">
+                {/* <div class="nav-right">
                     <ul>
                         <li><Link to="/"><a href="google.com"><button className="btn-two">Join Now</button></a></Link></li>
                         <li><Link to="/"><a href="google.com"><button className="btn-one">Sign In</button></a></Link></li>
@@ -35,7 +35,7 @@ function NavBar() {
                     <Route path="/order" component={Order}></Route>
                     <Route path="/cards" component={Cards}></Route>
                     <Route path="/gifts" component={Gifts}></Route>
-                </div>
+                </div> */}
             </nav>
         </header>
     )
