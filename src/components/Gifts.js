@@ -2,7 +2,10 @@ import React from 'react';
 
 function Gifts() {
     return (
-        <h1>This is the Gifts Comp</h1>
+        <div>
+            <h1>This is the Gifts Comp</h1>
+            <p>select an item</p>
+        </div>
     )
 }
 
