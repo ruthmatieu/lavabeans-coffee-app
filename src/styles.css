@@ -6,77 +6,6 @@
 }
 
 /**/
-nav {
-  padding: 20px 20px 0 20px;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav a {
-  text-decoration: none;
-  display: block;
-  color: black;
-  font-family: 'Lato', sans-serif;
-}
-
-.nav-left {
-  float: left;
-}
-
-.nav-left ul li {
-  float: left;
-}
-
-.nav-left ul li a {
-  margin: 18px;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 13px;
-  letter-spacing: 2px;
-}
-
-.nav-right ul li {
-  float: right;
-  font-weight: 900;
-  font-size: 13px;
-}
-
-.nav-right ul li a {
-  margin: 18px;
-}
-/**/
-
-.logo {
-  width: 60px;
-} 
-
-.nav-bar .btn-one{
-  margin: 0;
-  background-color: white;
-	border-radius: 28px;
-	border: 1px solid black;
-	cursor: pointer;
-  font-weight: 900;
-  font-size: 13px;
-	padding: 5px 10px;
-  color: black;
-}
-
-.nav-bar .btn-two{
-  margin: 0;
-  background-color: #202C54;
-	border-radius: 28px;
-	border: 1px solid white;
-  cursor: pointer;
-  font-weight: 900;
-  font-size: 13px;
-	padding: 5px 10px;
-  color: white;
-}
 
 
 .greeting {  
@@ -177,6 +106,71 @@ nav a {
   width: 25px;
 }
 
-body {
-  
+
+/*navigation*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+ul {
+  display: flex;
+}
+
+.left-nav li {
+  list-style: none;
+  padding: 22px 0 0 20px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.right-nav li {
+  list-style: none;
+  padding: 22px 20px 0 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+}
+
+.nav-btn-one {
+  margin: 0;
+  background-color: white;
+	border-radius: 28px;
+	border: 1px solid black;
+	cursor: pointer;
+  padding: 2px 20px;
+  margin-right: 20px;
+}
+
+.nav-btn-one a {
+  font-weight: 900;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-btn-two {
+  margin: 0;
+  background-color: #202C54;
+	border-radius: 28px;
+	border: 1px solid white;
+  cursor: pointer;
+  padding: 2px 20px;
+  margin-right: 40px;
+}
+
+.nav-btn-two a {
+  font-weight: 900;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
 }

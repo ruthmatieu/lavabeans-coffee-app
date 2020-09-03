@@ -2,12 +2,12 @@ import React from 'react';
 
 //css
 import './styles.css';
-import NavBar from "./components/NavBar";
+import NavbarRedo from "./components/Navigation";
 
 function App() {
   return (
     <div>
-      <NavBar/> 
+      <NavbarRedo/> 
     </div>
   );
 }

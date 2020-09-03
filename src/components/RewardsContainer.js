@@ -1,5 +1,5 @@
 import React from "react";
-import Rewards from "./Rewards";
+import Rewards from "./RewardsBanner";
 
 //images
 import rewardOne from "../img/rewardOne.png";
