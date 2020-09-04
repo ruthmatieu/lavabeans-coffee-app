@@ -174,3 +174,8 @@ ul {
   text-decoration: none;
   color: white;
 }
+
+.product-image {
+  width: 90px;
+  border-radius: 70%;
+}
