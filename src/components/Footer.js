@@ -5,7 +5,7 @@ class Footer extends React.Component {
         return (
             <div>
                 <div>
-                    <p>About Us</p> 
+                    <p>About</p> 
                 </div>
                 <div>
                     <p>Careers</p>
