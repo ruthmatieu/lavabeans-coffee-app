@@ -5,16 +5,16 @@ class Footer extends React.Component {
         return (
             <div>
                 <div>
-                    <p>About Us</p> <i class="fal fa-chevron-up"></i>
+                    <p>About Us</p> 
                 </div>
                 <div>
-                    <p>Careers</p> <i class="fal fa-chevron-up"></i>
+                    <p>Careers</p>
                 </div>
                 <div>
-                    <p>Social Impact</p> <i class="fal fa-chevron-up"></i>
+                    <p>Social Impact</p> 
                 </div>
                 <div>
-                    <p>For Business Partners</p> <i class="fal fa-chevron-up"></i>
+                    <p>For Business Partners</p> 
                 </div>
                 <div>
                     <p>Ways To Order</p> <i class="fal fa-chevron-up"></i>
