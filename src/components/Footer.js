@@ -8,7 +8,7 @@ class Footer extends React.Component {
                     <p>About</p> 
                 </div>
                 <div>
-                    <p>Careers</p>
+                    <p>Careers Page</p>
                 </div>
                 <div>
                     <p>Social Impact</p> 
