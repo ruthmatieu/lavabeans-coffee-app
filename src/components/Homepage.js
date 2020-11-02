@@ -7,9 +7,9 @@ import coffeeThree from "../img/coffee-three.png";
 import coffeeFour from "../img/coffee-four.png";
 
 //components
-import Greeting from "./Greeting";
-import RewardsContainer from "./RewardsContainer";
-import MainContent from "./MainContent";
+import Greeting from "./landingpage/Greeting";
+import RewardsContainer from "./landingpage/RewardsContainer";
+import MainContent from "./landingpage/MainContent";
 
 function Homepage() {
 

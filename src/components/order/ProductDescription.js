@@ -1,6 +1,7 @@
 import React from 'react';
-import data from '../data/hotCoffeeData';
 import { useParams } from 'react-router-dom';
+//redux
+import { connect } from 'react-redux';
 
 const nutritionInfo = `
     Nutrition information is calculated based on our standard recipes. 
@@ -16,11 +17,11 @@ const legal = `We cannot guarantee that any unpackaged products served in
     information for products on the labels of our packaged products or online 
     at LavaBeans.com/menu.`
 
-function ProductDescription() {
+function ProductDescription(props) {
 
     const params = useParams();
 
-    const product = data.find(thing => `${thing.id}` === params.val)
+    const product = props.coffeeTypes.hotCoffees.find(thing => `${thing.id}` === params.val)
 
     const style = {
         display: 'flex',
@@ -76,5 +77,11 @@ function ProductDescription() {
     )
 }
 
-export default ProductDescription;
+const mapStateToProps = state => {
+    return {
+        coffeeTypes: state.coffeeTypes
+    }
+}
+
+export default connect(mapStateToProps, {})(ProductDescription);
 

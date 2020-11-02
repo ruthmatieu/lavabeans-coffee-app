@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const Counter = (props) => {
-    //const Book = ({image, title, author, children})
-    //just a different way to utilize props^^ destrucured in function paramater
-    //children is a reserved name
+const HotCoffee = (props) => {
     const clickHandler = () => {
       alert('aye')
     }
@@ -23,4 +20,4 @@ const Counter = (props) => {
     )
   }
 
-  export default Counter;
+  export default HotCoffee;

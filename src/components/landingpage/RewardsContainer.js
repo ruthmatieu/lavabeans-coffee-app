@@ -2,11 +2,11 @@ import React from "react";
 import Rewards from "./RewardsBanner";
 
 //images
-import rewardOne from "../img/rewardOne.png";
-import rewardTwo from "../img/rewardTwo.png";
-import rewardThree from "../img/rewardThree.png";
-import rewardFour from "../img/rewardFour.png";
-import rewardFive from "../img/rewardFive.png";
+import rewardOne from "../../img/rewardOne.png";
+import rewardTwo from "../../img/rewardTwo.png";
+import rewardThree from "../../img/rewardThree.png";
+import rewardFour from "../../img/rewardFour.png";
+import rewardFive from "../../img/rewardFive.png";
 
 
 class RewardsContainer extends React.Component {

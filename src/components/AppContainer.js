@@ -11,8 +11,8 @@ import Order from './Order';
 import Cards from './Cards';
 import Gifts from './Gifts';
 import Footer from "./Footer";
-import Menu from "./Menu";
-import ProductDescription from './ProductDescription';
+import Menu from "./order/Menu";
+import ProductDescription from './order/ProductDescription';
 
 //logo
 import logo from "../img/logo.png";

@@ -220,23 +220,6 @@ span {
   place-items: center;
 }
 
-/*hot coffee menu*/
-
-.book-list {
-  width: 95vw;
-  max-width: 1170px;
-  margin: 5rem auto;
-  display: grid;
-  gap: 2rem;
-
-}
-
-.book {
-  background-color: #fff;
-  border-radius: 1rem;
-  padding: 1rem 2rem;
-}
-
 /*gift card section*/
 .giftcard-login {
   display: grid;

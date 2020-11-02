@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Menu from './Menu';
+import Menu from './order/Menu';
 import { Link } from 'react-router-dom';
 import coffee from '../img/coffee.jpg';
 // import axios from 'axios';
