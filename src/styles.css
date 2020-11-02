@@ -8,10 +8,10 @@
 /**/
 
 
-.greeting {  
+/* .greeting {  
   box-shadow: 1px 5px 5px 1px#E5E5E5;
   border-bottom: 1px solid #AFAFAF;
-}
+} */
 
 .greeting h1{
   margin: 0 0 20px 20px;
@@ -114,6 +114,11 @@ nav {
   background-color: white;
 }
 
+.nav-item li:hover {
+  color: #FF582B;
+  transition: 0.5s;
+}
+
 ul {
   display: flex;
 }
@@ -126,6 +131,10 @@ ul {
   font-weight: 800;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
+}
+
+ul .left-nav {
+  padding: none;
 }
 
 .right-nav li {
@@ -145,17 +154,15 @@ ul {
   margin: 0;
   background-color: white;
 	border-radius: 28px;
-	border: 1px solid black;
+	border: 1px solid #202C54;
 	cursor: pointer;
-  padding: 2px 20px;
-  margin-right: 20px;
+  padding: 6px 20px;
+  margin: 20px;
+  color: #202C54;
 }
 
-.nav-btn-one a {
-  font-weight: 900;
-  font-size: 13px;
-  text-decoration: none;
-  color: black;
+.nav-btn-one:hover {
+  background-color: #F7F7F7;
 }
 
 .nav-btn-two {
@@ -164,18 +171,76 @@ ul {
 	border-radius: 28px;
 	border: 1px solid white;
   cursor: pointer;
-  padding: 2px 20px;
-  margin-right: 40px;
-}
-
-.nav-btn-two a {
-  font-weight: 900;
-  font-size: 13px;
-  text-decoration: none;
+  padding: 6px 20px;
+  margin: 20px 40px 20px 0;
   color: white;
 }
+
 
 .product-image {
   width: 90px;
   border-radius: 70%;
+}
+.order-menu-img {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.drinks-div-flex {
+  display: flex;
+}
+.flex-center {
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coffee-card {
+    display: flex;
+    flex: 0 1 10px; /*  No stretching: */
+    margin-left: 50px;
+}
+
+.menu-data-img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.menu-data-details-img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+span {
+  font-weight: 800;
+
+}
+.nutrition {
+  width: 450px;
+  display: grid;
+  place-items: center;
+}
+
+/*hot coffee menu*/
+
+.book-list {
+  width: 95vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+
+}
+
+.book {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+/*gift card section*/
+.giftcard-login {
+  display: grid;
+  place-items: center;
+  padding-top: 50px;
+  background-color: #F7F7F7;
 }

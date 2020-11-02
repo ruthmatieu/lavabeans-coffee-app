@@ -17,7 +17,7 @@ class Footer extends React.Component {
                     <p>For Business Partners</p> 
                 </div>
                 <div>
-                    <p>Ways To Order</p> <i class="fal fa-chevron-up"></i>
+                    <p>Ways To Order</p> <i className="fal fa-chevron-up"></i>
                 </div>
             </div>
         )
