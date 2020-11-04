@@ -1,11 +1,14 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
+import { FaMapMarkerAlt} from 'react-icons/fa';
+
 
 
 //css
 import '../styles.css';
 
 //components
+import Greeting from './landingpage/Greeting'
 import Homepage from "./Homepage";
 import Order from './Order';
 import Cards from './Cards';
@@ -34,6 +37,8 @@ function AppContainer() {
     <div>
       <div>
         <nav style={navBorder}>
+          <div className="main-nav">
+
           <ul className="left-nav">
             <Link to="/">
               <img 
@@ -43,7 +48,6 @@ function AppContainer() {
               />
             </Link>
             
-
             <Link to="/menu" 
               className="nav-item" 
               style={linkStyles}>
@@ -64,12 +68,18 @@ function AppContainer() {
           </ul>
 
           <ul className="right-nav">
+              <FaMapMarkerAlt/>
               <li>Find a store</li>
               <Link to="/sign-in"><button className="nav-btn-one">Sign in</button></Link>
               <Link to="/sign-up"><button className="nav-btn-two">Join now</button></Link>
           </ul>
-        </nav>
+          </div>
 
+          <div style={{marginLeft: '20px'}}>
+            <Greeting/>
+          </div>          
+        </nav>
+        
         <div>
           <Switch>
             <Route exact path="/" component={Homepage}/>

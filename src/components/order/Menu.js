@@ -8,7 +8,7 @@ function Menu(props) {
 
     return (
         <div>
-            {props.coffeeTypes.hotCoffees.map(item => {
+            {props.coffeeTypes.map(item => {
                 return (
                     <HotCoffee
                         key={item.id}
@@ -21,7 +21,7 @@ function Menu(props) {
 }
 const mapStateToProps = state => {
     return {
-        coffeeTypes: state.coffeeTypes
+        coffeeTypes: state.coffeeTypes.hotCoffees
     }
 }
 

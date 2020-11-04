@@ -22,10 +22,13 @@
 .flexbox-rewards-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .rewards-div {
-  margin: 0 1%;
+  margin: 0 2%;
+        
+
 }
 
 .rewards-div p {
@@ -33,14 +36,14 @@
   margin-left: 10%;
 }
 .rewards-content-img {
-  border-radius: 8%;
+  border-radius: 12%;
   width: 100%;
-  margin: 0 10%;
+  
 }
 
 .main-content-container {
   background-color: #F7F7F7;
-  padding: 5% 0 22% 0;
+  padding: 5% 0 100px 0;
 }
 .main-content-div {
   padding-bottom: 2%;
@@ -48,7 +51,7 @@
   border: 1px solid #E0E0E0;
   box-shadow: 0 1px #B7B7B7;
   border-radius: 1%;
-  margin: 2% 1%;
+  margin: 2% 20px;
 } 
 
 .main-content-img {
@@ -108,7 +111,7 @@
 
 
 /*navigation*/
-nav {
+nav .main-nav {
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -134,7 +137,7 @@ ul {
 }
 
 ul .left-nav {
-  padding: none;
+  padding: 0 0 0 15px;
 }
 
 .right-nav li {
@@ -187,7 +190,7 @@ ul .left-nav {
 }
 
 .drinks-div-flex {
-  display: flex;
+  /* display: flex; */
 }
 .flex-center {
   flex-wrap: wrap;
@@ -197,7 +200,7 @@ ul .left-nav {
 .coffee-card {
     display: flex;
     flex: 0 1 10px; /*  No stretching: */
-    margin-left: 50px;
+    margin: 15px;
 }
 
 .menu-data-img {
@@ -226,4 +229,9 @@ span {
   place-items: center;
   padding-top: 50px;
   background-color: #F7F7F7;
+}
+
+.social-icons{
+  width: 50px;
+  color: red;
 }

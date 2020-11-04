@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //images
 import coffeeOne from "../img/coffee-one.png";
 import coffeeTwo from "../img/coffee-two.png";
@@ -7,7 +8,6 @@ import coffeeThree from "../img/coffee-three.png";
 import coffeeFour from "../img/coffee-four.png";
 
 //components
-import Greeting from "./landingpage/Greeting";
 import RewardsContainer from "./landingpage/RewardsContainer";
 import MainContent from "./landingpage/MainContent";
 
@@ -45,7 +45,7 @@ function Homepage() {
     ]
     return (
         <div> 
-            <Greeting/>
+
             <RewardsContainer />
             <div className="main-content-container">
                 {homeData.map(item => (

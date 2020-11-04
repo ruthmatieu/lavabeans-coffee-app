@@ -1,7 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import Menu from './order/Menu';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import coffee from '../img/coffee.jpg';
+//coffee images
+import coffee from '../img/menu/americano-main.png';
+import chaiLatte from '../img/menu/chai_latte-main.png';
+import saltedCaramel from '../img/menu/salted_caramel_hot_chocolate-main.png';
+import pumpkinSpice from '../img/menu/pumpkin_spice_coffee.png';
+import pumpkinCream from '../img/menu/pumpkin_cream-main.png';
+import sparklingBlood from '../img/menu/teavana_sparkling_blood-main.png';
+import guavaPassionfruit from '../img/menu/guava_passionfruit.png';
+
+
 // import axios from 'axios';
 
 //redux
@@ -22,6 +30,11 @@ function Order(props) {
     //     })
     // },[])
 
+    const fontStyle = {
+        fontWeight: '400', 
+        marginLeft: '20px'
+    }
+
     return (
         <div>
             <h1>Menu</h1>
@@ -38,35 +51,35 @@ function Order(props) {
                     <div className="flex-center">
                         <div className="coffee-card">
                             <Link to="/menu/drinks/hot-coffees"><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title1}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title1}</h3>
                         </div>
                         <div className="coffee-card">
                             
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title2}</h3>
+                            <Link><img src={chaiLatte} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title2}</h3>
                         </div>
                         <div className="coffee-card">
                             
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title3}</h3>
+                            <Link><img src={saltedCaramel} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title3}</h3>
                         </div>
                         <div className="coffee-card">
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title4}</h3>
+                            <Link><img src={pumpkinSpice} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title4}</h3>
                         </div>
                     </div>
                     <div className="flex-center">
                         <div className="coffee-card">
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title5}</h3>
+                            <Link><img src={pumpkinCream} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title5}</h3>
                         </div>
                         <div className="coffee-card">
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title6}</h3>
+                            <Link><img src={sparklingBlood} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title6}</h3>
                         </div>
                         <div className="coffee-card">
-                            <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.drinks.title7}</h3>
+                            <Link><img src={guavaPassionfruit} alt="" className="order-menu-img"/></Link>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.drinks.title7}</h3>
                         </div>
                     </div> 
                 </div>
@@ -80,25 +93,25 @@ function Order(props) {
                     <div className="flex-center">
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.food.title1}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.food.title1}</h3>
                         </div>
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.food.title2}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.food.title2}</h3>
                         </div>
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.food.title3}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.food.title3}</h3>
                         </div>
                     </div>
                     <div className="flex-center">
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.food.title4}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.food.title4}</h3>
                         </div>
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.food.title5}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.food.title5}</h3>
                         </div>
                     </div>
                 </div>
@@ -111,17 +124,17 @@ function Order(props) {
                     <div className="flex-center">
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.coffeeHome.title1}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.coffeeHome.title1}</h3>
                         </div>
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.coffeeHome.title2}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.coffeeHome.title2}</h3>
                         </div>
                     </div>
                     <div className="flex-center">
                         <div className="coffee-card">
                             <Link><img src={coffee} alt="" className="order-menu-img"/></Link>
-                            <h3>{props.mainMenuTitles.coffeeHome.title3}</h3>
+                            <h3 style={fontStyle}>{props.mainMenuTitles.coffeeHome.title3}</h3>
                         </div>
                     </div>
                 </div>

@@ -3,8 +3,11 @@ import React from 'react';
 //components
 import AppContainer from "./components/AppContainer";
 
-//images
+//main menu images
 import coffee from './img/coffee.jpg';
+
+
+//images
 import coffeeTwo from './img/coffee2.jpg';
 import caffemisto from './img/coffee3.jpg';
 import cappuccino from './img/coffee4.jpg';
@@ -19,12 +22,12 @@ function reducer() {
         drinks: {
           id: 'Drinks',
           title1: 'Hot Coffees',
-          title2: 'Hot Drinks',
-          title3: 'Cold Coffees',
-          title4: 'Cold Drinks',
-          title5: 'Hot Teas',
-          title6: 'Frappuccino Blended Beverages',
-          title7: 'Iced Teas'
+          title2: 'Hot Teas',
+          title3: 'Hot Drinks',
+          title4: 'Frappuccino Blended Beverages',
+          title5: 'Cold Coffees',
+          title6: 'Iced Teas',
+          title7: 'Cold Drinks'
         },
         food: {
           id: 'Food',
